@@ -1,0 +1,290 @@
+/********** MAIN STYLES **********/
+
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+li,
+p {
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+body {
+  background: #23B5AF;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+h3 {
+ text-align: center;
+ margin-top: 47px;
+ font-weight: 700;
+ 
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+footer li {
+  display:inline-block; 
+}
+
+.offset {
+  background-color: #3A3A3C;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+
+
+/********** HEADER & INTRO SECTION STYLES **********/
+
+.name,
+.main-nav li {
+  text-align: center;
+  margin: 6px 0px;  
+}
+
+.name {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.main-nav li {
+  background: #fff;
+  font-size: 1.1em; 
+}
+
+.name a,
+.main-nav a {
+  color: #000;
+}
+
+.main-header {
+  padding: 1em 0;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: .7em;
+}
+
+.profile-pic {
+  width: 80%;
+  padding-bottom: 1.5em;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 1.75em;
+  padding-bottom: 3em;
+}
+
+.title-one {
+  margin-bottom: 55px;
+}
+
+.title-two {
+  margin-bottom: 40px; 
+}
+
+/********** PORTFOLIO SECTION STYLES **********/
+
+
+.col p {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.col {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 3em;
+  
+}
+
+
+/********** FOOTER & CONTACT SECTION STYLES **********/
+
+
+.top {
+  float: right;
+}
+
+.sname {
+  float: left;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.contact-info li {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-nav {
+  display: none;
+}
+
+@media (min-width:768px) {
+
+
+.intro p,
+.contact p,
+.contact li {
+  font-size: 22px;
+}
+
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.intro img,
+.intro p {
+  width: 50%;
+  float: right;
+}
+
+.intro p {
+  margin-top: -3px;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+
+.intro img {
+  padding-right: 8px;
+}
+
+.main-header {
+  padding: 2em 0;
+}
+
+.main-nav li {
+  background: none;
+}
+
+.main-nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+.col {
+  width: 48%;
+  float: left;
+  margin: 10px 1%;
+  height: 480px;
+}
+
+.contact p {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+footer {
+  margin: 0 1%;
+}
+
+.top {
+  display: none;
+}
+
+.footer-nav {
+  display: initial;
+  float: right;
+  margin: 0;
+}
+
+.footer-nav li {
+  margin-left: 10px;
+
+}
+
+}
+
+
+@media (min-width:1024px) {
+
+.col {
+  width: 32%;
+  display: inline-block;
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+}
+
+.name {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.offset,
+.container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.intro p {
+  padding-left: 0;
+}
+
+.col-off {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.porfolio {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.intro img {
+  padding-right: 0;
+}
+
+}
